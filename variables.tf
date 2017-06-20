@@ -1,15 +1,17 @@
-variable "softlayer_username" {
-   type = "string"
-   description = "Your Softlayer-ID."
-}
-
-variable "softlayer_api_key" {
-   type = "string"
-   description = "The Softlayer API-Key."
-}
-
-variable "softlayer_account_number" {
+variable "ibmcloud_bmx_api_key" {
    type = "string"
    default = ""
-   description = "Your Softlayer account number."
+   description = "Your IBM Bluemix API key."
+}
+
+variable "ibmcloud_sl_username" {
+   type = "string"
+   default = ""
+   description = "Your Softlayer username."
+}
+
+variable "ibmcloud_sl_api_key" {
+   type = "string"
+   default = ""
+   description = "Your Softlayer API key."
 }
