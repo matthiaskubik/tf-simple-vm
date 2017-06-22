@@ -7,7 +7,7 @@ resource "ibmcloud_infra_virtual_guest" "debian_small_virtual_guest" {
   network_speed            = 100
   hourly_billing           = true
   private_network_only     = false
-  cores                    = 1
+  cores                    = 2
   memory                   = 1024
   disks                    = [25, 10, 20]
   user_metadata            = "{\"value\":\"newvalue\"}"
