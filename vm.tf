@@ -1,7 +1,7 @@
 # Create a new virtual guest using image "Debian"
 # Your VM will appear with hostname starting with "teraformed-"
 resource "ibm_compute_vm_instance" "debian_small_virtual_guest" {
-  os_reference_code        = "DEBIAN_7_64"
+  os_reference_code        = "CENTOS_7_64"
   domain                   = "cam.ibm.com"
   datacenter               = "wdc04"
   network_speed            = 100
