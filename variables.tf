@@ -9,3 +9,8 @@ variable "ibmcloud_sl_api_key" {
    default = ""
    description = "Your Softlayer API key."
 }
+variable "count" {
+   type = "string"
+   default = "1"
+   description = "Number of VMs"
+}
